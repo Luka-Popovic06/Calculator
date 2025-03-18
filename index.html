@@ -11,21 +11,20 @@
     <form>
       <h1>Tip Calculator</h1>
       <p>Enter the bill amount and tip percentage to calculate the total.</p>
-      <div>
+      <div class="flexbox">
         <label for="amount">Bill amount:</label>
-        <input id="amount" type="number" id="amount" name="amount" size="20" />
+        <input id="amount" type="number" id="amount" name="amount" />
       </div>
-      <div>
+      <div class="flexbox">
         <label for="percentage">Tip percentage:</label>
         <input
           id="percentage"
           type="number"
           id="percentage"
           name="percentage"
-          size="20"
         />
       </div>
-      <button>CALCULATE</button>
+      <button><strong>CALCULATE</strong></button>
       <div>
         <label for="total">Total:</label>
         <span id="total"></span>
