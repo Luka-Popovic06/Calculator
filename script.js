@@ -30,3 +30,11 @@ function calculateTotalThree() {
   total.textContent = calculatorThree;
 }
 buttonThree.addEventListener('click', calculateTotalThree);
+
+function calculateTotalFour() {
+  const sharingOne = Number(numberOne.value);
+  const sharingTwo = Number(numberTwo.value);
+  const calculatorFour = sharingOne / sharingTwo;
+  total.textContent = calculatorFour;
+}
+buttonFour.addEventListener('click', calculateTotalFour);
