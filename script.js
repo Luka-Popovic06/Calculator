@@ -1,12 +1,23 @@
 'use strict';
-let amount = document.querySelector('#amount');
-let tipPercentage = document.querySelector('#percentage');
+let numberOne = document.querySelector('#number-one');
+let numberTwo = document.querySelector('#number-two');
 let total = document.querySelector('#total');
 let button = document.querySelector('#btn');
+let buttonTwo = document.querySelector('#btn-2');
 
-function calculateTotal() {
-  const valueOfAmount = Number(amount.value);
-  const valueOfTipePercentage = Number(tipPercentage.value);
-  const calculator = valueOfAmount + tipPercentage;
+function calculateTotalOne() {
+  const valueOfNumberOne = Number(numberOne.value);
+  const valueOfNumberTwo = Number(numberTwo.value);
+  const calculator = valueOfNumberOne + valueOfNumberTwo;
   total.textContent = calculator;
 }
+
+button.addEventListener('click', calculateTotalOne);
+
+function calculateTotalTwo() {
+  const minusOne = Number(numberOne.value);
+  const minusTwo = Number(numberTwo.value);
+  const calculatorTwo = minusOne - minusTwo;
+  total.textContent = calculatorTwo;
+}
+buttonTwo.addEventListener('click', calculateTotalTwo);
