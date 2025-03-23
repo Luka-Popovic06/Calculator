@@ -7,26 +7,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
-      <h1>Tip Calculator</h1>
-      <p>Enter two numbers and calculate (➕,➖,✖️,➗):</p>
-      <div class="flexbox">
-        <label for="number-one">Number one:</label>
-        <input type="number" id="number-one" name="number-one" />
-      </div>
-      <div class="flexbox">
-        <label for="number-two">Number two:</label>
-        <input type="number" id="number-two" name="number-two" />
-      </div>
-      <button type="button" id="btn">CALCULATE ➕</button>
-      <button type="button" id="btn-2">CALCULATE ➖</button>
-      <button type="button" id="btn-3">CALCULATE ✖️</button>
-      <button type="button" id="btn-4">CALCULATE ➗</button>
-      <div>
-        <label for="total">Total:</label>
-        <span id="total"></span>
-      </div>
-    </form>
+    <div id="container">
+      <form id="form-1">
+        <h1 id="h1-1">Tip Calculator 1</h1>
+        <p id="p-1">Enter two numbers and calculate (➕,➖,✖️,➗):</p>
+        <div class="flexbox">
+          <label for="number-one">Number one:</label>
+          <input type="number" id="number-one" name="number-one" />
+        </div>
+        <div class="flexbox">
+          <label for="number-two">Number two:</label>
+          <input type="number" id="number-two" name="number-two" />
+        </div>
+        <button type="button" id="btn">CALCULATE ➕</button>
+        <button type="button" id="btn-2">CALCULATE ➖</button>
+        <button type="button" id="btn-3">CALCULATE ✖️</button>
+        <button type="button" id="btn-4">CALCULATE ➗</button>
+        <div>
+          <label for="total">Total:</label>
+          <span id="total"></span>
+        </div>
+      </form>
+      <form id="form-2">
+        <h1 id="h1-1">Tip Calculator 2</h1>
+        <p id="p-1">
+          Enter the bill amount and tip percentage to calculate the total.
+        </p>
+      </form>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
