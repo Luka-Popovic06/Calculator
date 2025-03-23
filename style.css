@@ -52,3 +52,11 @@ button:hover {
   transition: 0.2s;
 }
 /**/
+#form-2 {
+  width: 40%;
+  height: 350px;
+  margin: 200px auto;
+  padding: 20px 0 20px 37px;
+  border-radius: 20px;
+  background-color: #fff;
+}
