@@ -53,3 +53,7 @@ amount.addEventListener('input', function (e) {
 percentage.addEventListener('input', function (e) {
   tipPercentageValue = e.target.value;
 });
+function izracun() {
+  const calculateTotalFive = amountValue * (tipPercentageValue / 100);
+  totalTwo.textContent = calculateTotalFive;
+}
