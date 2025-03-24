@@ -57,3 +57,4 @@ function izracun() {
   const calculateTotalFive = amountValue * (tipPercentageValue / 100);
   totalTwo.textContent = calculateTotalFive;
 }
+buttonFive.addEventListener('click', izracun);
