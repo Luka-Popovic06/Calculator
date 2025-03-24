@@ -41,6 +41,8 @@ buttonFour.addEventListener('click', calculateTotalFour);
 //Calculator 2
 
 let amount = document.querySelector('#amount');
-let percentage = document.querySelector('percentage');
-let buttonFive = document.querySelector('btn-5');
-let totalTwo = document.querySelector('total-2');
+let percentage = document.querySelector('#percentage');
+let buttonFive = document.querySelector('#btn-5');
+let totalTwo = document.querySelector('#total-2');
+let amountValue;
+let tipPercentageValue;
