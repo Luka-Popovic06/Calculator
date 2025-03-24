@@ -46,3 +46,10 @@ let buttonFive = document.querySelector('#btn-5');
 let totalTwo = document.querySelector('#total-2');
 let amountValue;
 let tipPercentageValue;
+amount.addEventListener('input', function (e) {
+  //amountValue = amount.value;
+  amountValue = e.target.value;
+});
+percentage.addEventListener('input', function (e) {
+  tipPercentageValue = e.target.value;
+});
