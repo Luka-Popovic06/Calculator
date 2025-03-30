@@ -58,3 +58,10 @@ function izracun() {
   totalTwo.textContent = calculateTotalFive;
 }
 buttonFive.addEventListener('click', izracun);
+//Loan Calculator
+const loanAmount = document.querySelector('#loan-amount');
+const interestRate = document.querySelector('#interest-rate');
+const monthsToPay = document.querySelector('#months');
+let loanAmountValue;
+let interestRateValue;
+let monthsToPayValue;
