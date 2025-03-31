@@ -76,3 +76,9 @@ interestRate.addEventListener('input', function (e) {
 monthsToPay.addEventListener('input', function (e) {
   monthsToPayValue = e.target.value;
 });
+function loan() {
+  const loanCalculator =
+    (loanAmountValue * (interestRateValue / 100)) / monthsToPayValue;
+  monthlyPayment.textContent = loanCalculator;
+}
+btnSix.addEventListener('click', loan);
