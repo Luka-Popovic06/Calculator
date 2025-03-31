@@ -62,6 +62,17 @@ buttonFive.addEventListener('click', izracun);
 const loanAmount = document.querySelector('#loan-amount');
 const interestRate = document.querySelector('#interest-rate');
 const monthsToPay = document.querySelector('#months');
+const btnSix = document.querySelector('#btn-6');
+const monthlyPayment = document.querySelector('#monthly-payment');
 let loanAmountValue;
 let interestRateValue;
 let monthsToPayValue;
+loanAmount.addEventListener('input', function (e) {
+  loanAmountValue = e.target.value;
+});
+interestRate.addEventListener('input', function (e) {
+  interestRateValue = e.target.value;
+});
+monthsToPay.addEventListener('input', function (e) {
+  monthsToPayValue = e.target.value;
+});
